@@ -1,0 +1,24 @@
+{
+  "name": "koa2.X",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiegiser/koa2.X.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiegiser/koa2.X/issues"
+  },
+  "homepage": "https://github.com/jiegiser/koa2.X#readme",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^3.2.0"
+  }
+}
