@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>无标题文档</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="login">
+        <div class="welcome">
+            <div class="header">
+                <!-- <img src="images/welcome.png"> -->
+                <h1 style="font-family:sans-serif;font-size:32px;color:#3867ae;">娄底市国土资源局</h1>
+                <h1 style="font-family:sans-serif;font-size:26px;color:#3867ae;margin-top:10px;">移动办公平台</h1>
+            </div>
+        </div>
+        <div class="login-form">
+            <div class="login-inp"><label>账号：</label><input name="username" type="text" placeholder=""></div>
+            <div class="login-inp"><label>密码：</label><input  name="pwd"  type="password" placeholder=""></div>
+            <div class="login-inp"><a href="#" onclick="bind()">绑定</a></div>
+        </div>
+        <!-- <div class="login-txt"><a href="#">立即注册</a>|<a href="#">忘记密码？</a></div> -->
+    </div>
+    <script>
+        
+        
+        function bind(){
+            var pwd = $("input[name='pwd']").val();
+            var username = $("input[name='username'] ").val();
+            
+        }
+    </script>
+
+</body>
+
+</html>
